@@ -19,7 +19,6 @@
     "@eslint/js": "^9.9.1",
     "@types/react": "^18.3.5",
     "@types/react-dom": "^18.3.0",
-    "@whois-api/types": "^1.0.2",
     "@vitejs/plugin-react": "^4.3.1",
     "whois-api": "^1.0.2",
     "autoprefixer": "^10.4.18",
