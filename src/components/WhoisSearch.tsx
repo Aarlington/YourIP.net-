@@ -1,21 +1,14 @@
 import React, { useState } from 'react';
 import { Search } from 'lucide-react';
-import whois from 'whois-api';
-
 
 export function WhoisSearch() {
   const [domain, setDomain] = useState('');
   const [loading, setLoading] = useState(false);
 
-
-
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    whois.lookup(domain).then(() => {
-      console.log(data);
-    });
+    // fix/setup
     setTimeout(() => setLoading(false), 1000);
   };
 
