@@ -5,7 +5,6 @@ import { WhoisSearch } from './components/WhoisSearch';
 import { LatencyTest } from './components/LatencyTest';
 import { useSystemInfo } from './hooks/useSystemInfo';
 import { Analytics } from "@vercel/analytics/react";
-import { Analytics } from "./vercel/analytics/react";
 
 export default function App() {
   const { ip, browser, os } = useSystemInfo();
