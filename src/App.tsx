@@ -17,7 +17,7 @@ export default function App() {
           <h1 className="text-4xl font-bold mb-4">Network Tools</h1>
           <p className="text-gray-400">Your complete network information dashboard</p>
         </header>
-
+        <Analytics />
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <NetworkCard
             icon={<Globe2 className="w-6 h-6 text-indigo-400" />}
